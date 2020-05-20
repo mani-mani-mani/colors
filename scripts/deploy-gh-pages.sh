@@ -1,6 +1,6 @@
 #!/bin/bash
 
-GH_USER="gh-pages-bot"
+GH_USER="mani-mani-mani"
 GH_EMAIL="<>"
 GH_MESSAGE="chore: update github-page"
 GH_BRANCH="gh-pages"
