@@ -26,7 +26,7 @@ rsync -av --delete ${BUILD_DIRECTORY} ${DEPLOY_DIRECTORY} \
 pushd ${DEPLOY_DIRECTORY}
 git add --all .
 git commit -m "${GH_MESSAGE}"
-git push origin ${GH_BRANCH}
+git push origin HEAD:${GH_BRANCH}
 popd
 
 # post push
