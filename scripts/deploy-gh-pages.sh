@@ -18,7 +18,7 @@ git fetch --no-recurse-submodules
 
 # files to commit
 git worktree add ${DEPLOY_DIRECTORY} origin/${GH_BRANCH}
-rsync -av --delete ${BUILD_DIRECTORY} ${DEPLOY_DIRECTORY} \
+rsync -ahv --delete ${BUILD_DIRECTORY} ${DEPLOY_DIRECTORY} \
     --exclude .git \
     --exclude .github
 
