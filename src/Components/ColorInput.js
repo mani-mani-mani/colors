@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-import { rgb, b, g, r } from '../Utils/ColorUtil';
+import { b, g, r } from '../Utils/ColorUtil';
 
 export default class ColorInput extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   backgroundColor = (name, colorValue) => {
     switch (name) {
       case 'R':

@@ -1,5 +1,5 @@
 import React, { Component, createRef } from 'react';
-import { complementaryRgb, rgb } from '../Utils/ColorUtil';
+import { rgb } from '../Utils/ColorUtil';
 
 export default class ColorCircle extends Component {
   constructor(props) {
