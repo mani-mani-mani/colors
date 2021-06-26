@@ -15,7 +15,9 @@ export default class ColorCircle extends Component {
 
   updateCanvas() {
     let ctx = this.canvas.current.getContext("2d");
-    ctx.fillStyle = rgb(this.props.colorValue);     //塗りつぶしの色を赤に指定
+    if (this.props.colorValue) {
+      ctx.fillStyle = rgb(this.props.colorValue);
+    }
 
     //円
     ctx.beginPath();
