@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ColorInput from './Components/ColorInput';
 import ColorCircle from './Components/ColorCircle';
-import FileInput from './Components/FileInput';
 
 export default class App extends Component {
   constructor(props) {
